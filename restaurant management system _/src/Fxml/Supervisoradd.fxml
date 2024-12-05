@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fxml.SupervisoraddController">
+   <children>
+      <TextField fx:id="SupervisorNametxt" layoutX="123.0" layoutY="95.0" promptText="Name" />
+      <TextField fx:id="SupervisorIdtxt" layoutX="123.0" layoutY="142.0" promptText="Id" />
+      <TextField fx:id="SupervisorAgetxt" layoutX="123.0" layoutY="188.0" promptText="Age" />
+      <TextField fx:id="Supervisorsalarytxt" layoutX="123.0" layoutY="230.0" promptText="salary" />
+      <Button layoutX="366.0" layoutY="200.0" mnemonicParsing="false" onAction="#HandleAddButton" prefHeight="25.0" prefWidth="124.0" text="Add" />
+      <Button layoutX="366.0" layoutY="240.0" mnemonicParsing="false" onAction="#HandleSaveButton" prefHeight="25.0" prefWidth="124.0" text="Save" />
+      <Button layoutX="434.0" layoutY="349.0" mnemonicParsing="false" onAction="#HabdleBack" prefHeight="25.0" prefWidth="56.0" text="back" />
+      <ComboBox fx:id="Filechoser" layoutX="374.0" layoutY="95.0" prefWidth="150.0" promptText="chose File" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,2 @@
+EmployeName=Abdullah, EmployeId=2022238, Employeeage=21, salary=200000
+ My name is Abdullah. I want to leave from this city.

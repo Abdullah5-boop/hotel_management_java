@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fxml.CleaningSupervisorWithdrowController">
+   <children>
+      <TextField fx:id="Amounttxt" layoutX="378.0" layoutY="276.0" prefHeight="25.0" prefWidth="104.0" />
+      <Label layoutX="178.0" layoutY="225.0" prefHeight="27.0" prefWidth="195.0" text="Your Total balance is : ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="290.0" layoutY="276.0" prefHeight="25.0" prefWidth="73.0" text="Amount : ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="Oldbalancetxt" layoutX="381.0" layoutY="222.0" prefHeight="33.0" prefWidth="195.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="259.0" layoutY="42.0" text="Withdrow money ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="331.0" layoutY="466.0" mnemonicParsing="false" onAction="#HandleWithdrow" prefHeight="25.0" prefWidth="85.0" text="Done" />
+      <Label fx:id="Notifiaction1" layoutX="235.0" layoutY="356.0" prefHeight="27.0" prefWidth="301.0" textFill="#33bc6f" />
+      <Label fx:id="Notifiaction2" layoutX="227.0" layoutY="356.0" prefHeight="27.0" prefWidth="301.0" textFill="#fc1a1a" />
+      <Button layoutX="652.0" layoutY="478.0" mnemonicParsing="false" onAction="#HandleBack" prefHeight="25.0" prefWidth="85.0" text="Back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="563.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fxml.SchedulePostingController">
+   <children>
+      <Label layoutX="68.0" layoutY="65.0" prefHeight="34.0" prefWidth="197.0" text="Morning Schedule">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Mtime" layoutX="68.0" layoutY="127.0" prefHeight="25.0" prefWidth="118.0" promptText="time" />
+      <ComboBox fx:id="Memply" layoutX="397.0" layoutY="127.0" prefWidth="150.0" promptText="Choose Id" />
+      <Label layoutX="68.0" layoutY="212.0" prefHeight="34.0" prefWidth="197.0" text="Night Schedule">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Ntime" layoutX="68.0" layoutY="279.0" prefHeight="25.0" prefWidth="118.0" />
+      <ComboBox fx:id="Nemply" layoutX="397.0" layoutY="279.0" prefWidth="150.0" promptText="choose ID" />
+      <Button layoutX="581.0" layoutY="503.0" mnemonicParsing="false" onAction="#Baclbtn" prefHeight="25.0" prefWidth="53.0" text="Back" />
+      <Button layoutX="422.0" layoutY="382.0" mnemonicParsing="false" onAction="#Confimbtn" prefHeight="25.0" prefWidth="85.0" text="Confirm" />
+      <Label layoutX="206.0" layoutY="131.0" prefHeight="25.0" prefWidth="33.0" text="AM" />
+      <Label layoutX="212.0" layoutY="279.0" prefHeight="25.0" prefWidth="33.0" text="PM" />
+      <DatePicker fx:id="ScheduleDatePicker" layoutX="78.0" layoutY="369.0" prefHeight="25.0" prefWidth="128.0" />
+   </children>
+</AnchorPane>

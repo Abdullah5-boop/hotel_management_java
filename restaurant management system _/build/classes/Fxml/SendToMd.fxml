@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="777.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fxml.SendToMdController">
+   <top>
+      <Label text="Send Information to MD" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets top="50.0" />
+         </BorderPane.margin>
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </top>
+   <center>
+      <TextArea fx:id="Sendtomdtxtarea" prefHeight="392.0" prefWidth="777.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="50.0" top="100.0" />
+         </BorderPane.margin>
+      </TextArea>
+   </center>
+   <bottom>
+      <AnchorPane prefHeight="132.0" prefWidth="777.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="360.0" layoutY="20.0" mnemonicParsing="false" onAction="#HandleSendtomd" prefHeight="25.0" prefWidth="83.0" text="send" />
+            <Button layoutX="651.0" layoutY="76.0" mnemonicParsing="false" onAction="#HandleBackbtn" text="Back" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

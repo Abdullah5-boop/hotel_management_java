@@ -1,0 +1,50 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Fxml;
+
+import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.stage.Stage;
+
+/**
+ * FXML Controller class
+ *
+ * @author USER
+ */
+public class Dalivary1Controller implements Initializable {
+
+    @FXML
+    private Label Notification;
+
+  
+    @Override
+    public void initialize(URL url, ResourceBundle rb) {
+        // TODO
+        Notification.setText("Please Confirm Your Payment ");
+        
+    }    
+
+    @FXML
+    private void HandleDelivary1ToDashBord(ActionEvent event) throws IOException {
+         String path = "SupplierDashbord.fxml";
+        Parent root = FXMLLoader.load(getClass().getResource(path));
+        Scene scene = new Scene(root);
+        Stage window = (Stage)((Node) event.getSource()).getScene().getWindow();
+        window.setTitle("Supplier Dashbord");
+        window.setScene(scene);
+        window.show();
+    }
+    
+}

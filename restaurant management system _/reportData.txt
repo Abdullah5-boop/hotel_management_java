@@ -1,0 +1,36 @@
+ Order Data 
+ Chair : Amount=10, Price=50, TotalPrice=500, id=1
+Table : Amount=10, Price=60, TotalPrice=600, Tableid=5
+Bulb : Amount=10, Price=60, TotalPrice=600, id=3
+GlassSet : Amount=10, Price=60, TotalPrice=600, id=2
+PlateSet : Amount=10, Price=60, TotalPrice=600, id=4
+ Delivary Man data 
+DalivaryManName=Abdullah, DelivaryManLoactoin=Dhaka, 
+ DelivaryManPhn=19, DelivaryManPrice=100
+ Order Data 
+ Chair : Amount=10, Price=50, TotalPrice=500, id=1
+Table : Amount=10, Price=60, TotalPrice=600, Tableid=5
+Bulb : Amount=10, Price=60, TotalPrice=600, id=3
+GlassSet : Amount=10, Price=60, TotalPrice=600, id=2
+PlateSet : Amount=10, Price=60, TotalPrice=600, id=4
+ Delivary Man data 
+DalivaryManName=Abdullah, DelivaryManLoactoin=Dhaka, 
+ DelivaryManPhn=19, DelivaryManPrice=100
+ Order Data 
+ Chair : Amount=10, Price=50, TotalPrice=500, id=1
+Table : Amount=10, Price=60, TotalPrice=600, Tableid=5
+Bulb : Amount=10, Price=60, TotalPrice=600, id=3
+GlassSet : Amount=10, Price=60, TotalPrice=600, id=2
+PlateSet : Amount=10, Price=60, TotalPrice=600, id=4
+ Delivary Man data 
+DalivaryManName=Abdullah, DelivaryManLoactoin=Dhaka, 
+ DelivaryManPhn=19, DelivaryManPrice=100
+ Order Data 
+ Chair : Amount=10, Price=50, TotalPrice=500, id=1
+Table : Amount=5, Price=60, TotalPrice=300, Tableid=5
+Bulb : Amount=9, Price=60, TotalPrice=540, id=3
+GlassSet : Amount=9, Price=60, TotalPrice=540, id=2
+PlateSet : Amount=7, Price=60, TotalPrice=420, id=4
+ Delivary Man data 
+DalivaryManName=Abdullah, DelivaryManLoactoin=Dhaka, 
+ DelivaryManPhn=19, DelivaryManPrice=100

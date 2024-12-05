@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="591.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fxml.AddProductController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+         <padding>
+            <Insets bottom="15.0" top="15.0" />
+         </padding>
+      </MenuBar>
+   </top>
+   <center>
+      <AnchorPane prefHeight="536.0" prefWidth="853.0" BorderPane.alignment="CENTER">
+         <children>
+            <CheckBox fx:id="ChairCheckbox" layoutX="84.0" layoutY="81.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="122.0" text="Chair">
+               <font>
+                  <Font size="15.0" />
+               </font></CheckBox>
+            <TextField fx:id="ChairAmout" layoutX="226.0" layoutY="84.0" prefHeight="25.0" prefWidth="120.0" />
+            <CheckBox fx:id="BulbCheckbox" layoutX="84.0" layoutY="189.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="122.0" text="Bulb ">
+               <font>
+                  <Font size="15.0" />
+               </font></CheckBox>
+            <CheckBox fx:id="TableCheckbox" layoutX="84.0" layoutY="134.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="122.0" text="Table">
+               <font>
+                  <Font size="15.0" />
+               </font></CheckBox>
+            <TextField fx:id="TableAmout" layoutX="226.0" layoutY="137.0" prefHeight="25.0" prefWidth="120.0" />
+            <TextField fx:id="BlubsetAmout" layoutX="226.0" layoutY="189.0" prefHeight="25.0" prefWidth="120.0" />
+            <CheckBox fx:id="PlaterCheckbox" layoutX="84.0" layoutY="238.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="122.0" text="Plate set">
+               <font>
+                  <Font size="15.0" />
+               </font></CheckBox>
+            <CheckBox fx:id="GlassCheckbox" layoutX="84.0" layoutY="283.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="122.0" text="glass set">
+               <font>
+                  <Font size="15.0" />
+               </font></CheckBox>
+            <TextField fx:id="PlateSetAmout" layoutX="226.0" layoutY="241.0" prefHeight="25.0" prefWidth="120.0" />
+            <TextField fx:id="GlassAmout" layoutX="226.0" layoutY="286.0" prefHeight="25.0" prefWidth="120.0" />
+            <Button layoutX="492.0" layoutY="201.0" mnemonicParsing="false" onAction="#HandleAddProduct" prefHeight="37.0" prefWidth="154.0" text="Add order" />
+            <Button layoutX="495.0" layoutY="266.0" mnemonicParsing="false" onAction="#HandleSaveOrder" prefHeight="35.0" prefWidth="151.0" text="Save Order" />
+            <Button layoutX="629.0" layoutY="470.0" mnemonicParsing="false" onAction="#HandleAddProductToDashbord" prefHeight="25.0" prefWidth="62.0" text="Back" />
+            <TextField fx:id="AmountSendMoney" layoutX="488.0" layoutY="72.0" prefHeight="25.0" prefWidth="162.0" promptText="Amount Money">
+               <padding>
+                  <Insets bottom="9.0" left="5.0" top="9.0" />
+               </padding>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <ComboBox fx:id="FileChoserTxt" layoutX="496.0" layoutY="152.0" prefWidth="150.0" promptText="Chose file Name" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
